@@ -1,0 +1,359 @@
+.box {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: #FAFAFA;
+}
+
+.head {
+    height: 86px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    background: white;
+    border: 1px solid rgb(245, 245, 245);
+    border-bottom-color: rgb(235, 235, 235);
+
+}
+
+.box1 {
+    height: 86px;
+    width: 1340px;
+    margin: 0px auto;
+    position: relative;
+
+}
+
+.log {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+}
+
+span {
+    font-family: "黑体";
+}
+
+.login {
+    font-size: 14px;
+}
+
+.box1-t1 {
+    position: absolute;
+    right: 130px;
+    top: 8px;
+}
+
+.box1-t2 {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: url("./images/help.png") no-repeat right;
+}
+
+.box1-t2 a {
+    padding-top: 4px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    padding-right: 20px;
+    color: black;
+    background: url("./images/help1.png") no-repeat left;
+}
+
+.box1-t2 a:hover {
+    color: rgb(255, 35, 35);
+    border: 1px solid rgb(43, 43, 43);
+}
+
+.bd {
+    position: absolute;
+    height: 510px;
+    top: 110px;
+    right: 0px;
+    left: 0px;
+}
+
+.bd-box {
+    position: relative;
+    height: 510px;
+    width: 1100px;
+    margin: 0px auto;
+}
+
+.bd-1 {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.bd-2 {
+    width: 510px;
+    height: 550px;
+    position: absolute;
+    right: 50px;
+}
+
+.bd-2 .login {
+    position: absolute;
+    width: 500px;
+    height: 420px;
+    background: white;
+    border: 1px solid rgb(226, 226, 226);
+    top: 80px;
+    right: 5px;
+}
+
+.loginborder {
+    position: absolute;
+    top: -14px;
+    right: 242px;
+}
+
+.bd-2title {
+    width: 107px;
+    margin: 0px auto;
+    margin-top: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(160, 160, 160);
+
+}
+
+.bd-zhuce {
+    position: absolute;
+    right: 28px;
+    top: 50px;
+    width: 63px;
+}
+
+.login-box {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    margin: 0px auto;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+
+.username {
+    width: 300px;
+    height: 50px;
+    border: 0px;
+    border-top: 1px solid rgb(180, 180, 180);
+    border-right: 1px solid rgb(180, 180, 180);
+}
+
+.pwd {
+    border: 0px;
+    border-top: 1px solid rgb(180, 180, 180);
+    border-right: 1px solid rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(180, 180, 180);
+    width: 300px;
+    height: 49px;
+}
+
+.login-un {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.login-pwd {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+.un-head {
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    border-top: 1px solid rgb(180, 180, 180);
+    border-left: 1px solid rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(180, 180, 180);
+    background: url("./images/user.png") no-repeat center;
+    top: 0px;
+    left: 0px;
+}
+
+.pwd-head {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    border-left: 1px solid rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(180, 180, 180);
+    background: url("./images/pwd.png") no-repeat center;
+}
+
+.dl {
+    position: absolute;
+    top: 105px;
+    margin: 1px 1px;
+}
+
+.dl input {
+    cursor: pointer;
+}
+
+.dl label {
+    cursor: pointer;
+}
+
+label {
+    color: rgb(180, 180, 180);
+    font-size: 15px;
+}
+
+.wj {
+    position: absolute;
+    top: 105px;
+    right: 0px;
+}
+
+.queren {
+    position: absolute;
+    top: 150px;
+}
+
+.queren li {
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 19px;
+    background: red;
+}
+
+.queren li a {
+    color: white;
+    margin: 0px auto;
+    padding: 11px 155px;
+}
+
+.img2 {
+    position: absolute;
+    top: 280px;
+    left: 55px;
+}
+
+.qq {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 333px;
+    left: 63px;
+    background: url("./images/qq0.png") no-repeat center;
+}
+
+.qq:hover {
+    background: url("./images/qq2.png") no-repeat center;
+}
+
+.qq a {
+    padding-right: 45px;
+    padding-bottom: 25px;
+}
+
+.weibo {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 333px;
+    left: 120px;
+    background: url("./images/weibo1.png") no-repeat center;
+}
+
+.weibo:hover {
+    background: url("./images/weibo2.png") no-repeat center;
+}
+
+.weibo a {
+    padding-right: 45px;
+    padding-bottom: 25px;
+}
+
+.zfb {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 336px;
+    left: 176px;
+    background: url("./images/zfb1.png") no-repeat center;
+}
+
+.zfb:hover {
+    background: url("./images/zfb2.png") no-repeat center;
+}
+
+.zfb a {
+    padding-right: 45px;
+    padding-bottom: 25px;
+}
+
+.weix {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 334px;
+    left: 232px;
+    background: url("./images/weix1.png") no-repeat center;
+}
+
+.weix:hover {
+    background: url("./images/weix2.png") no-repeat center;
+}
+
+.weix a {
+    padding-right: 45px;
+    padding-bottom: 25px;
+}
+
+.other-un {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 305px;
+    left: 63px;
+}
+
+
+.more-un a {
+    position: absolute;
+    left: 66px;
+    top: 380px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    color: rgb(97, 97, 97);
+    background: url("./images/help.png") no-repeat right;
+}
+
+.more-un a:hover {
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.foot {
+    position: absolute;
+    top: 630px;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+}
+
+.foot-box {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    width: 1100px;
+    height: 100px;
+}
+
+.hao {
+    padding: 11px 0px;
+}
